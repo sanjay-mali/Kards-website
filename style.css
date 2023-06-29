@@ -149,3 +149,47 @@ body{
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
 }
+.about{
+    margin: 8rem 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh
+}
+.self{
+    text-align: center;
+
+}
+.self .p{
+    text-transform: uppercase;
+    color: #ff0278;
+    FONT-WEIGHT: 700;
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+}
+.self h1{
+    font-size: 2.5rem;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.profile-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 40px 0;
+    position: relative;
+    left: 25%;
+}
+.profile-pic img{
+    border-radius: 100%;
+    width: 100px;
+} 
+.profile-pic p{
+    font-size: 1.6rem;
+    color: #888888;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 40px
+}
